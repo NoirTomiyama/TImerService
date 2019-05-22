@@ -61,6 +61,4 @@ public class MainService extends Service {
         intent.putExtra("message", message);
         getApplicationContext().sendBroadcast(intent);
     }
-
-
 }
